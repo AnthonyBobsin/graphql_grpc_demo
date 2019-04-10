@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  warehouse_location_id: 
+  start_at: 
+  end_at: 
+  window_description: 
+
+two:
+  warehouse_location_id: 
+  start_at: 
+  end_at: 
+  window_description: 
