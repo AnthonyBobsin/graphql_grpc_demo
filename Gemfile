@@ -13,6 +13,7 @@ gem 'graphql'
 gem 'graphiql-rails'
 gem 'grpc'
 gem 'grpc-tools'
+gem 'gruf'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
