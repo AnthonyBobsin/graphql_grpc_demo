@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package rpc;
+
+service ServiceOptions {
+    rpc GetServiceOptions(GetServiceOptionsReq) returns (stream ServiceOption) {}
+}
+
+message ServiceOption {
+    uint32 id = 1;
+    uint32 warehouse_location_id = 2;
+    string start_at = 3;
+    string end_at = 4;
+    string window_description = 5;
+}
+
+message GetServiceOptionsReq {}
